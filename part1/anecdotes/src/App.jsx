@@ -42,10 +42,12 @@ const App = () => {
 
     return (
         <div>
+            <h1>Anecdote of the day</h1>
             <h3>{anecdotes[selected]}</h3>
             <button onClick={() => AddScore(selected)}>Vote</button>
             <button onClick={RandomNumber}>click</button>
             <h5>{score[selected]}</h5>
+            <h1>Anecdote with Most Votes</h1>
             <h3>{anecdotes[best]}</h3>
             <h3>Score {score[best]}</h3>
         </div>
