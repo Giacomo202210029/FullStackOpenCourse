@@ -1,0 +1,31 @@
+h1 {
+    color: green;
+
+    font-style: italic;
+}
+
+li {
+    color: grey;
+    padding-top: 3px;
+    font-size: 15px;
+}
+
+.notification {
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    color: green;
+    font-size: 3rem;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    border: 2px solid green; /* Add this line to set the border color to green */
+}
+
+.errornotification {
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    color: red;
+    font-size: 3rem;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    border: 2px solid red; /* Add this line to set the border color to red */
+}
